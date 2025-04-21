@@ -8,11 +8,11 @@ namespace WebAPIGeneral.Controllers
 {
     public class DynamicController : ApiController
     {
-        private readonly string _connectionString = "Data Source=myServerName.COM;Integrated Security=False;User Id=myUserDB;Password=myPassword;MultipleActiveResultSets=True";
+        private readonly string _connectionString = "Data Source=LMESQLAP300.LME.FLEXTRONICS.COM;Integrated Security=False;User Id=2024_MaterialsWS;Password=e#_GfB$7;MultipleActiveResultSets=True";
 
         // POST: api/dynamic
         [AcceptVerbs("POST")]
-        [HttpPost]
+        [HttpPost] 
         [Route("api/dynamic")]
         public IHttpActionResult Post([FromBody] Dictionary<string, object> inputParams)
         {
