@@ -363,3 +363,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 #
+Web.config
+/WebAPIGeneral/Web.config
+/WebAPIGeneral/Web.Debug.config
+/WebAPIGeneral/Web.Release.config
